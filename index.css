@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.oop-style {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(22, 22, 54);
+}
+
+.oop-content {
+    width: 1300px;
+    background-color: rgb(61, 83, 77);
+    color: white;
+    border: .5rem solid rgb(159, 226, 206);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+/* investors */
+.İnvestors {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.invest-Person {
+    width: 400px;
+    font-weight: 700;
+}
+
+.invest-Person p {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    
+}
+.invest-Person li {
+    list-style: none;
+    color: rgb(229, 255, 0);
+}
+
+
+/* Persons */
+.Persons {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    border-top: .4rem solid rgb(159, 226, 206);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .invest-Person {
+        width: 250px;
+    }
+    .oop-content {
+        padding: .5rem;
+        margin: .5rem;
+    }
+}
